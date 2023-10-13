@@ -16,7 +16,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     vip = math.floor(percentage)
     if 0 < vip <= 2:
-        bar = "⚡ѕтαяє∂ ρℓαყเɳɠ⚡"
+        bar = "⚡𝐒𝐭𝐚𝐫𝐞𝐝 𝐏𝐥𝐚𝐲𝐢𝐧𝐠⚡"
     elif 2 < vip < 3:
         bar = "ﮩ٨ـﮩﮩ٨ـﮩ٨ـﮩ♡ﮩ٨ـ"
     elif 3 <= vip < 4:
@@ -267,7 +267,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
+              url="https://t.me/EBD_QN",
             ),
         ],
     ]
@@ -282,7 +282,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     vip = math.floor(percentage)
     if 0 < vip <= 2:
-        bar = "⚡ѕтαяє∂ ρℓαყเɳɠ⚡"
+        bar = "⚡𝐒𝐭𝐚𝐫𝐞𝐝 𝐏𝐥𝐚𝐲𝐢𝐧𝐠⚡"
     elif 2 < vip < 3:
         bar = "ﮩ٨ـﮩﮩ٨ـﮩ٨ـﮩ♡ﮩ٨ـ"
     elif 3 <= vip < 4:
@@ -534,7 +534,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
+              url="https://t.me/EBD_QN",
             ),
         ],
     ]
@@ -601,7 +601,7 @@ def stream_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
+              url="https://t.me/EBD_QN",
             ),
         ],
     ]
@@ -665,7 +665,7 @@ def telegram_markup(_, chat_id):
         [
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
+              url="https://t.me/EBD_QN",
             ),
         ],
     ]
@@ -728,7 +728,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
         [
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
+              url="https://t.me/EBD_QN",
             ),
         ],
     ]
@@ -981,7 +981,7 @@ def queue_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
+              url="https://t.me/EBD_QN",
             ),
         ],
     ]
